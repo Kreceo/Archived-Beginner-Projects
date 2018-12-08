@@ -474,7 +474,8 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  align-content: center;
+  align-content: space-between;
+  justify-content: space-around;
 }
 
 .section5-box {
@@ -488,4 +489,42 @@
 
 .section5-padding {
   padding: 20px;
+}
+
+/* Section 6 Classes */
+
+.section6-containerleft {
+  width: 100%;
+  max-width: 510px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: flex-start;
+}
+
+.section6-left1 {
+  width: 100%;
+  max-width: 400px;
+  height: 100px;
+  background-color: #000000;
+  margin-left: 50px;
+}
+
+.section6-left2 {
+  width: 100%;
+  max-width: 100px;
+  height: 500px;
+  background-color: #000000;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+
+.section6-right {
+  width: 100%;
+  max-width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 500px;
+  background-color: aqua;
 }
