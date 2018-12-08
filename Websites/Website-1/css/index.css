@@ -385,18 +385,31 @@
  .section1-container {
     width: 100%;
     max-width: 1020px; 
-    background-color: #ebcb19;
+    background-color: #ffe606;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
 }
 
-.section1-text {
+.section1-top {
+  widows: 100%;
+  margin-left: 250px
+}
+
+.section1-bottom {
+    width: 100%;
+    max-width: 1020px;
     font-size: 40px;
     font-family: 'Noto Serif TC';
     text-decoration: line-through;
     text-align: center;
+    padding: 30px;
 }
 
 .section1-padding {
-    padding: 50px;
+padding: 40px;
 }
 
 /* Section 2 classes */
@@ -440,14 +453,18 @@
   flex-wrap: wrap;
   flex-direction: column;
   align-content: center;
+  justify-content: center;
 }
 
 .section3-box {
   widows: 100%;
-  max-width: 510px;
+  max-width: 510;
   font-size: 20px;
+  text-align: center;
   background-color: bisque;
   font-family: 'Noto Serif TC';
+  margin-left: 255px;
+  margin-right: 255px;
 }
 
 /* Setion 4 Classes */
