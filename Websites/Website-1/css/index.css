@@ -415,6 +415,7 @@
   max-width: 1020px;
   background-color: #3a3a3a;
   color: #ffffff;
+  font-family: 'Noto Serif TC';
 }
 
 .section2-box2 { 
@@ -473,7 +474,8 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  align-content: center;
+  align-content: space-between;
+  justify-content: space-around;
 }
 
 .section5-box {
@@ -487,4 +489,57 @@
 
 .section5-padding {
   padding: 20px;
+}
+
+/* Section 6 Classes */
+
+.section6-overall {
+  width: 100%;
+  max-width: 1020px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.section6-containerleft {
+  width: 100%;
+  max-width: 510px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.section6-left1 {
+  width: 100%;
+  max-width: 450px;
+  height: 100px;
+  background-color: #000000;
+}
+
+.section6-left2 {
+  width: 100%;
+  max-width: 100px;
+  height: 500px;
+  background-color: #ebcb19;
+  margin-top: 50px;
+}
+
+.section6-containerright {
+  width: 100%;
+  max-width: 510px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+}
+
+.section6-right {
+  width: 100%;
+  max-width: 250px;
+  height: 600px;
+  background-color: #18a39c;
 }
