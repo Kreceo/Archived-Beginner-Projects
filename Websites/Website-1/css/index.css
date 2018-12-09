@@ -499,14 +499,13 @@ padding: 40px;
 .section5-box {
   width: 100%;
   max-width: 200px;
-  background-color: #a53131;
-  font-size: 20px;
+  height: 200px;
   text-align: center;
   font-family: 'Noto Serif TC';
 }
 
 .section5-padding {
-  padding: 20px;
+  margin: 20px;
 }
 
 /* Section 6 Classes */
