@@ -384,7 +384,7 @@
 
  .section1-container {
     width: 100%;
-    max-width: 1020px; 
+    max-width: 1920px; 
     background-color: #ffe606;
     display: flex;
     flex-wrap: wrap;
@@ -409,39 +409,98 @@
     padding: 30px;
 }
 
-.section1-padding {
-padding: 40px;
-}
 
 /* Section 2 classes */
 
 .section2-container {
   width: 100%;
   max-width: 1020px;
-  background-color: #46424265;
+  background-color: #ffffff;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-content: center;
 }
 
 .section2-box1 { 
   width: 100%;
   max-width: 1020px;
-  background-color: #3a3a3a;
-  color: #ffffff;
+  background-color: #ffffff;
+  color: #000000;
   font-family: 'Noto Serif TC';
+  margin-top: 40px;
 }
 
 .section2-box2 { 
   width: 100%;
-  max-width: 510px;
-  background-color: #a53131;
-  color: #ffffff;;
+  max-width: 1020px;
+  background-color: #ffffff;
+  color: #000000;
   font-family: 'Noto Serif TC';
+  font-size: 40px;
+  margin-top: 40px;
+
 }
 
-.section2-text {
+.section2-box3 { 
+  width: 100%;
+  max-width: 1020px;
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Noto Serif TC';
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.section2-underline {
+  width:100%;
+  max-width: 150px;
+  background-color: #000000;
+  padding-bottom: 5px;
+  margin-top: 10px;
+}
+
+/* Section 2.5 Classes */
+
+.section2-5-container {
+  width: 100%;
+  max-width: 1020px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.section2-5-box-right {
+  width: 100%;
+  max-width: 510px;
+  background-color: #18a39c;
+}
+
+.section2-5-text {
+  width: 100%;
+  max-width: 510px;
+  color: #000000;
   font-size: 22px;
+  text-align: center;
+}
+
+.section2-5-box-left {
+  width: 100%;
+  max-width: 510px;
+
+}
+
+.section2-5-button {
+  font-size: 22px;
+  background-color: #18a39c;
+  color: #ffffff;
+  width: 100%;
+  max-width: 150px;
+  border-radius: 5px;
+  padding: 20px;
+  margin-left: 150px;
+  margin-top: 50px;
 }
 
 /* Section 3 Classes */
