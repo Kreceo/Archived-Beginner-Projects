@@ -407,6 +407,7 @@
     text-decoration: line-through;
     text-align: center;
     padding: 30px;
+    margin-bottom: 30px;
 }
 
 
@@ -508,6 +509,7 @@
   padding: 20px;
   margin-left: 150px;
   margin-top: 50px;
+  text-align: center;
 }
 
 .section-2-5-text {
@@ -526,20 +528,33 @@
   background-color: #ffffff;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
   align-content: center;
   justify-content: center;
 }
 
-.section3-box {
-  widows: 100%;
-  max-width: 510;
-  font-size: 20px;
+.section3-text1 {
+  width: 100%;
+  max-width: 1020px;
+  font-size: 40px;
   text-align: center;
   background-color: bisque;
   font-family: 'Noto Serif TC';
-  margin-left: 255px;
-  margin-right: 255px;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.section3-text2 {
+  width: 100%;
+  max-width: 1020px;
+  font-size: 22px;
+  text-align: center;
+  background-color: bisque;
+  font-family: 'Noto Serif TC';
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 /* Setion 4 Classes */
@@ -551,11 +566,79 @@
   flex-wrap: wrap;
   flex-direction: row;
   align-content: center;
+  justify-content: space-between;
+  margin-bottom: 40px;
 }
 
 .section4-box {
   width: 100%;
+  max-width: 300px;
+  background-color: #18a39c;
+  border-radius: 10px;
+}
+
+.section4-text {
+  color: #ffffff;
+  font-size: 22px;
+  text-align: center;
+  align-content: center;
+  padding: 30px;
+}
+
+.section4-plus {
+  font-size: 50px;
+  color: #000000;
+  margin-top: 15px;
+}
+
+/* Section 4.5 Classes */
+
+.section-4-5-overall {
+  width: 100%;
+  max-width: 1020px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.section-4-5-containerleft {
+  width: 100%;
   max-width: 510px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.section-4-5-left1 {
+  width: 100%;
+  max-width: 450px;
+  border: 1px solid #000000;
+}
+
+.section-4-5-left2 {
+  width: 100%;
+  max-width: 150px;
+  margin-top: 50px;
+  border: 1px solid #000000;
+}
+
+.section-4-5-containerright {
+  width: 100%;
+  max-width: 510px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+}
+
+.section-4-5-right {
+  width: 100%;
+  max-width: 250px;
+  border: 1px solid #000000;
 }
 
 /* Section 5 classes */
@@ -584,56 +667,6 @@
 
 /* Section 6 Classes */
 
-.section6-overall {
-  width: 100%;
-  max-width: 1020px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-}
-
-.section6-containerleft {
-  width: 100%;
-  max-width: 510px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  align-content: center;
-}
-
-.section6-left1 {
-  width: 100%;
-  max-width: 450px;
-  height: 100px;
-  background-color: #000000;
-}
-
-.section6-left2 {
-  width: 100%;
-  max-width: 100px;
-  height: 500px;
-  background-color: #ebcb19;
-  margin-top: 50px;
-}
-
-.section6-containerright {
-  width: 100%;
-  max-width: 510px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-content: center;
-}
-
-.section6-right {
-  width: 100%;
-  max-width: 250px;
-  height: 600px;
-  background-color: #18a39c;
-}
 
 /* Section 7 Classes */
 
