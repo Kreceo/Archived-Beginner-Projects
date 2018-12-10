@@ -622,7 +622,6 @@
 .section-4-5-left2 {
   width: 100%;
   max-width: 150px;
-  margin-top: 50px;
   border: 1px solid #000000;
 }
 
@@ -675,6 +674,28 @@
 
 /* Section 6 Classes */
 
+.section6-container {
+  width: 100%;
+  max-width: 1020px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.section6-left {
+  width: 100%;
+  max-width: 510px;
+}
+
+.section6-right {
+  width: 100%;
+  max-width: 510px;
+  font-size: 22px;
+  background-color: #18a39c;
+  color: #000000;
+}
 
 /* Section 7 Classes */
 
@@ -684,11 +705,110 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.section7-left {
+  width: 100%;
+  max-width: 510px;
+}
+
+.section7-right {
+  width: 100%;
+  max-width: 510px;
+  font-size: 22px;
+  background-color: #18a39c;
+  color: #000000;
+}
+
+/* Section 8 Classes */
+
+.section8-container {
+  width: 100%;
+  max-width: 1020px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.section8-left {
+  width: 100%;
+  max-width: 510px;
+}
+
+.section8-right {
+  width: 100%;
+  max-width: 510px;
+  font-size: 22px;
+  background-color: #18a39c;
+  color: #000000;
+}
+
+/* Section 9 Classes */
+
+.section9-container {
+  width: 100%;
+  max-width: 1020px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.section9-left {
+  width: 100%;
+  max-width: 510px;
+}
+
+.section9-right {
+  width: 100%;
+  max-width: 510px;
+  font-size: 22px;
+  background-color: #18a39c;
+  color: #000000;
+}
+
+/* Section 10 Classes */
+
+.section10-container {
+  width: 100%;
+  max-width: 1020px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.section10-left {
+  width: 100%;
+  max-width: 510px;
+}
+
+.section10-right {
+  width: 100%;
+  max-width: 510px;
+  font-size: 22px;
+  background-color: #18a39c;
+  color: #000000;
+}
+/* Final Section Classes */
+
+.section11-container {
+  width: 100%;
+  max-width: 1020px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   align-content: space-between;
   justify-content: space-around;
 }
 
-.section7-box {
+.section11-box {
   width: 100%;
   max-width: 200px;
   height: 200px;
@@ -696,6 +816,6 @@
   font-family: 'Noto Serif TC';
 }
 
-.section7-padding {
+.section11-padding {
   margin: 20px;
 }
