@@ -488,7 +488,14 @@
 .section2-5-box-left {
   width: 100%;
   max-width: 510px;
+}
 
+.section2-5-up-arrow {
+  width: 100%;
+  max-width: 10px;
+  padding-top: 10px;
+  margin-left: 230px;
+  font-size: 50px;
 }
 
 .section2-5-button {
@@ -501,6 +508,14 @@
   padding: 20px;
   margin-left: 150px;
   margin-top: 50px;
+}
+
+.section-2-5-text {
+  width: 100%;
+  max-width: 250px;
+  margin-left: 150px;
+  color: #000000;
+  font-size: 22px;
 }
 
 /* Section 3 Classes */
