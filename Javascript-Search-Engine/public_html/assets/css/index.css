@@ -1,0 +1,29 @@
+body {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.navBar-Container {
+    width:100%;
+    height:60px;
+    border-bottom: 3px solid #dddddd;
+}
+
+.navBar-group {
+    max-width: 500px;
+    float: right;
+    margin-right:30px;
+    margin-top: 20px;
+}
+
+.navBar-item {
+    max-width:100px;
+    display:inline-block;
+    padding-right:30px;
+}
+
+.navBar-item h2 {
+    color: #000000;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
