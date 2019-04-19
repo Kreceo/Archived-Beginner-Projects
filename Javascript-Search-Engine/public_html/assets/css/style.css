@@ -132,3 +132,37 @@ body {
 .banner-Container img {
     opacity: 0.5;
 }
+
+.contact-form-container {
+    width: 100%;
+    max-width: 650px;
+    margin: 0 auto;
+    margin-top: 100px !important;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    background-color: #dddddd;
+    height: 400px;
+}
+
+.contact-form-container p {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.contact-form-container form {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800px;
+    text-align: center;
+}
+
+.contact-form-container input {
+    padding: 4px;
+    margin-top: 25px;
+}
+
+.submit-button { 
+    margin-top: 50px;
+}
