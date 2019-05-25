@@ -21,7 +21,53 @@ h1 span {
 
 /* Nav bar */
 
+.nav-container {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-bottom: 0px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-top:20px;
+}
+    
+    
+.nav-container div a {
+    text-decoration: none;
+}
+    
+.nav-container p {
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin: 0px;
+    color: #5d5;
+}
 
+/* Sliding underline for Nav Bar */
+
+.link {
+    position: relative;
+}
+  
+.link:after {
+    content: '';
+    position: absolute;
+    width: 0; height: 3px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    background: #5d5;
+    transition: width .3s ease;
+    -webkit-transition: width .3s ease;
+}
+   
+.link:hover:after {
+    width: 100%;
+    left: 0;
+    background: #5d5;
+}
 
 /* Positioning of button on screen */
 
@@ -98,16 +144,34 @@ h1 span {
 
 .left-bp {
     max-width: 520px;
-    top: 15%;
+    top: 17%;
     left: 50%;
-    position: fixed;
+    position: absolute;
     z-index: -1;
     margin-left: -900px;
 }
 
 .right-bp {
     max-width: 520px;
-    top: 15%;
+    top: 17%;
+    right: 50%;
+    position: absolute;
+    z-index: -1;
+    margin-right: -900px;
+}
+
+.left-fixed {
+    max-width: 520px;
+    top: 0%;
+    left: 50%;
+    position: fixed;
+    z-index: -1;
+    margin-left: -900px;
+}
+
+.right-fixed {
+    max-width: 520px;
+    top: 0%;
     right: 50%;
     position: fixed;
     z-index: -1;
