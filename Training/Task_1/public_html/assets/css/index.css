@@ -1,3 +1,10 @@
+/* Title */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 2000px;
+}
 
 h1 {
     text-align: center;
@@ -11,6 +18,10 @@ h1 span {
     color: #000000;
     font-size: 15px;
 }
+
+/* Nav bar */
+
+
 
 /* Positioning of button on screen */
 
@@ -43,6 +54,8 @@ h1 span {
     width: 100%;
     display: flex;
 }
+
+/* Text container with buttons */
 
 .text-container {
     width: 100%;
@@ -79,4 +92,24 @@ h1 span {
 .demo-container {
     width: 100%;
     margin-top: 100px;
+}
+
+/* Backing plates */
+
+.left-bp {
+    max-width: 520px;
+    top: 15%;
+    left: 50%;
+    position: fixed;
+    z-index: -1;
+    margin-left: -900px;
+}
+
+.right-bp {
+    max-width: 520px;
+    top: 15%;
+    right: 50%;
+    position: fixed;
+    z-index: -1;
+    margin-right: -900px;
 }
