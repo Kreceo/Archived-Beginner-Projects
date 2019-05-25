@@ -1,0 +1,25 @@
+@media only screen and (max-width: 600px) {
+    .button-Container-Top {
+        margin-top: 50px;
+    }
+
+    .demo-container {
+
+        width: 100%;
+        margin-top: 100px;
+        max-width: 450px;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    .demo-container {
+        max-width: 325px;
+        font-size: 14px;
+    }
+
+    .text-container {
+        flex-direction: column;
+        margin-top: 45px;
+    }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Exo&display=swap" rel="stylesheet">
+    <title>Task 1</title>
+</head>
+
+<body>
+    
+    <h1>Task 1 - Development Tasks<br>
+        <span>25th - 27th May 2019</span>
+    </h1>
+
+    <!-- Center a button in the center of screen that will set the colour of the background upon click using JS -->
+
+    <section class="button-Container-Top">
+        <button type="button" class="button-Color" onclick="setBackgroundColor()">Background Change<br>(Timer 3 secs)</button>
+        <button type="button" class="button-Image" onclick="setBackgroundImage()">Background & Image</button>
+    </section>
+
+    <!-- Section 2 below is for showcasing innerText, innerHTML, getContent in JS alert buttons -->
+
+    <section class="demo-container">
+        <p id="demo">
+            The innerText property returns just the text, without spacing and inner element tags.<br>
+            The innerHTML property returns the text, including all spacing and inner element tags<br>
+            The textContent property returns the text with spacing, but without inner element tags.<br><br>
+            <span class="center">Preview</span><br><strong>"Spacing here       and also span tag <span>right     here</span>"</strong>
+        </p>
+    </section>
+
+
+    <section class="button-Container-Bottom">
+        <div class="text-container">
+            <button type="button" onclick="demoInnerText()">Click Me (innerText)</button>
+            <button type="button" onclick="demoInnerHTML()">Click Me (innerHTML)</button>
+            <button type="button" onclick="demoTextContent()">Click Me (textContent)</button>
+        </div>
+    </section>
+
+
+    <!-- JS script -->
+
+    <script src="assets/js/bg.js"></script>
+</body>
+
+</html>
