@@ -18,10 +18,10 @@ function textColorChange () {
 }
 
 // Turn on below to set background with Image too
-// TODO -- Scale image to over full screen
+// To Make as extra --> Scale image to over full screen
 
 function setBackgroundImage () {
-  document.body.style.background = "#dddddd url('/public_html/assets/images/daylight-water.jpg') no-repeat top left"
+  document.body.style.background = "#eeeeee url('/Training/Task_1/public_html/assets/images/img_tree.png') no-repeat center top";
 }
 
 // Select a div and change innterHTML to innerText
