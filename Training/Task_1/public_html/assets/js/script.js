@@ -88,6 +88,29 @@ var weekend = new Date("May 31, 2019 17:00:00").getTime();
 
 // Show time and date function below
   var date = new Date();
-    document.getElementById('currentDate').innerHTML = date;
+    document.getElementById('currentDate').innerHTML = date.toDateString();
 
+
+// 24 Hour clock
+
+function updateClock() {
+
+  var newClock = new Date();
+
+  var hours = newClock.getHours();
+  var minutes = newClock.getMinutes();
+  var seconds = newClock.getSeconds();
+
+  minutes = (minutes < 10 ? "0" : "") + minutes;
+  seconds = (seconds < 10 ? "0" : "") + seconds;
+
+  var dateTime = (hours < 12) ? "AM" : "PM";
+  hours = (hours > 24) ? hours - 24 : hours;
+  hours = (hours == 0) ? 24 : hours;
+
+  var displayTime = hours + ":" + minutes + ":" + seconds + " " + dateTime;
+
+  document.getElementById('clock').innerHTML = displayTime;
+  
+}
 // 60 Second clock, changing background color every 10 seconds

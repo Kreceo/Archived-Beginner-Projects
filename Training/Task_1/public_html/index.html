@@ -11,7 +11,7 @@
     <title>Task 1</title>
 </head>
 
-<body>
+<body onload="updateClock(); setInterval('updateClock()', 1000 )">
     
     <!-- Nav bar -->
 
@@ -71,24 +71,34 @@
 
     <!-- Display current date and time -->
 
-    <div class="button-Container-Bottom">
-            <button type="button" class="currentDate">Current Date and Time<br><br>
-            <span id="currentDate"></span></button>
-    </div>
+    <section class="extra-Container">
 
-    <!-- Countdown to set date (Weekend in this case) -->
+        <div class="button-Container-Bottom">
+                <button type="button" class="currentDate">Current Date and Time<br><br>
+                <span id="currentDate"></span></button>
+        </div>
 
-    <div class="button-Container-Bottom">
-        <button type="button" class="countdown">Countdown for weekend!<br><br>
-        <span id="countdown"></span></button>
-    </div>
+        <!-- Countdown to set date (Weekend in this case) -->
 
-    <!-- Begin countdown with start, pause, reset -->
+        <div class="button-Container-Bottom">
+            <button type="button" class="countdown">Countdown for weekend!<br><br>
+            <span id="countdown"></span></button>
+        </div>
+
+        <!-- 24 Hour clock -->
+
+        <div class="button-Container-Bottom">
+            <button type="button" class="countdown">24 hour clock<br><br>
+            <span id="clock"></span></button>
+        </div>
+        
+
+        <!-- Begin countdown with start, pause, reset -->
 
 
-    <!-- Clock which will change background color every 10 seconds -->
-    
-
+        <!-- Clock which will change background color every 10 seconds -->
+        
+    </section>
     
 
 

@@ -208,7 +208,6 @@ h1 span {
     }
   }
 
-
 /* Javascript title */
 
 .javascript-Extras {
@@ -219,6 +218,15 @@ h1 span {
     font-family: 'Exo', sans-serif;
     margin-top: 80px;
     letter-spacing: 1px;
+}
+
+/* JS extras container */
+
+.extra-Container {
+    width: 100%;
+    max-width: 850px;
+    display: flex;
+    margin: 0 auto;
 }
 
 /* Countdown timer */
