@@ -88,7 +88,7 @@ var weekend = new Date("May 31, 2019 17:00:00").getTime();
 
 // Show time and date function below
   var date = new Date();
-    document.getElementById('currentDate').innerHTML = date.toDateString();
+    document.getElementById('currentDate').innerHTML = date;
 
 
 // 24 Hour clock
