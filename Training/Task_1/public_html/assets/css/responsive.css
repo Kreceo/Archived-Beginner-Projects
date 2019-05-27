@@ -10,6 +10,10 @@
         max-width: 450px;
         margin: 0 auto;
     }
+    
+    .javascript-Extras {
+        font-size: 25px;
+    }
 }
 
 @media only screen and (max-width: 465px) {
