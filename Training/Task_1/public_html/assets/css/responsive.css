@@ -1,3 +1,9 @@
+@media only screen and (max-width: 750px) {
+    .extra-Container {
+        flex-wrap: wrap;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .button-Container-Top {
         margin-top: 50px;
@@ -9,6 +15,10 @@
         margin-top: 100px;
         max-width: 450px;
         margin: 0 auto;
+    }
+    
+    .javascript-Extras {
+        font-size: 25px;
     }
 }
 

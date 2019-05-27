@@ -11,7 +11,7 @@
     <title>Task 1</title>
 </head>
 
-<body>
+<body onload="updateClock(); setInterval('updateClock()', 1000 )">
     
     <!-- Nav bar -->
 
@@ -61,6 +61,47 @@
         </div>
     </section>
 
+    <!-- Bouncing arrow at bottom of screen -->
+    
+    <div class="arrow bounce"></div>
+
+    <!-- Additional JS function buttons -->
+        
+    <p class="javascript-Extras">Check out these additional Javascript functions!</p>
+
+    <!-- Display current date and time -->
+
+    <section class="extra-Container">
+
+        <div class="button-Container-Bottom">
+                <button type="button" class="currentDate">Current Date and Time<br><br>
+                <span id="currentDate"></span></button>
+        </div>
+
+        <!-- Countdown to set date (Weekend in this case) -->
+
+        <div class="button-Container-Bottom">
+            <button type="button" class="countdown">Countdown to weekend!<br><br>
+            <span id="countdown"></span></button>
+        </div>
+
+        <!-- 24 Hour clock -->
+
+        <div class="button-Container-Bottom">
+            <button type="button" class="countdown">24 hour clock<br><br>
+            <span id="clock"></span></button>
+        </div>
+        
+
+        <!-- Begin countdown with start, pause, reset -->
+
+
+        <!-- Clock which will change background color every 10 seconds -->
+        
+    </section>
+    
+
+
     <!-- Left backing plate -->
 
     <div class="left-bp" id="left-bp">
@@ -79,7 +120,7 @@
 
     <!-- JS script -->
 
-    <script src="assets/js/bg.js"></script>
+    <script src="assets/js/script.js"></script>
 
 </body>
 

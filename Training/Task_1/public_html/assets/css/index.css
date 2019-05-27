@@ -109,7 +109,7 @@ h1 span {
     display: flex;
     margin: 0 auto;
     flex-wrap: wrap;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .button-Container-Bottom button {
@@ -176,4 +176,88 @@ h1 span {
     position: fixed;
     z-index: -1;
     margin-right: -900px;
+}
+
+/* Bouncing arrow */
+
+.arrow {
+  position: relative;
+  bottom: -2rem;
+  left: 50%;
+  margin-left:-20px;
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/red_arrow_down.png);
+  background-size: contain;
+}
+
+
+.bounce {
+    animation: bounce 2s infinite;
+}
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+
+/* Javascript title */
+
+.javascript-Extras {
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Exo', sans-serif;
+    margin-top: 80px;
+    letter-spacing: 1px;
+}
+
+/* JS extras container */
+
+.extra-Container {
+    width: 100%;
+    max-width: 850px;
+    display: flex;
+    margin: 0 auto;
+}
+
+/* Countdown timer */
+
+.button-Container-Bottom {
+    width: 100%;
+    display: flex;
+}
+
+.button-Container-Bottom .countdown {
+    width: 100%;
+    max-width: 250px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-family: 'Exo', sans-serif;
+    margin-bottom: 20px;
+}
+
+/* Current Date */
+
+.button-Container-Bottom .currentDate {
+    width: 100%;
+    max-width: 250px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-family: 'Exo', sans-serif;
+    margin-bottom: 20px;
 }
