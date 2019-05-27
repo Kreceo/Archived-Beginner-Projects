@@ -58,8 +58,6 @@ function myFunction() {
 }
 
 // Function below for countdown timer
-
-
 var weekend = new Date("May 31, 2019 17:00:00").getTime();
 
 // Set function to count down by 1 second each time
@@ -78,17 +76,18 @@ var weekend = new Date("May 31, 2019 17:00:00").getTime();
   var seconds = Math.floor((difference % (1000 * 60)) / 1000);
 
 // Output the result in an element with id="countdown"
-
   document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
   + minutes + "m " + seconds + "s ";
   
 // If the count down is over, write some text 
   if (difference < 0) {
-    clearInterval(timer);
+  clearInterval(timer);
     document.getElementById("countdown").innerHTML = "Weekend!!";
   }
 }, 1000);
 
 // Show time and date function below
+  var date = new Date();
+    document.getElementById('currentDate').innerHTML = date;
 
 // 60 Second clock, changing background color every 10 seconds

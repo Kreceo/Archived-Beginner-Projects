@@ -230,7 +230,21 @@ h1 span {
 
 .button-Container-Bottom .countdown {
     width: 100%;
-    max-width: 150px;
+    max-width: 250px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-family: 'Exo', sans-serif;
+    margin-bottom: 20px;
+}
+
+/* Current Date */
+
+.button-Container-Bottom .currentDate {
+    width: 100%;
+    max-width: 250px;
     display: block;
     margin: 0 auto;
     padding: 10px;
