@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+ 
+/* To do list container */
+
+.list-Container {
+    position: fixed;
+    left:30%;
+    top: 30%; 
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.list-Container h1 {
+    width: 100%;
+}
+
+.list-Container input {
+    width: 100%;
+    max-width: 400px; 
+    border: 40px;
+    border: 1px solid crimson;
+    border-radius: 5px;
+}
+
+.list-Container button {
+    padding: 13px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+/* List items */
+
+.list-Items {
+    width: 100%;
+    margin-top: 10px;
+    line-height: 40px;
+}
