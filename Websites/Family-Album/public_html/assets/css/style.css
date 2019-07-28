@@ -1,0 +1,341 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+body{
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	color: #fff;
+	font-family: Arial;
+    font-size: 12px;
+    width:100%;
+}
+
+.body{
+	position: fixed;
+	top: -20px;
+	left: -20px;
+	right: -40px;
+	bottom: -40px;
+	width: auto;
+    height: auto;
+    background-image: url('../images/darren-nunis-422161-unsplash.jpg');
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+	background-size: cover;
+    z-index: 0;
+}
+
+.header{
+	position: absolute;
+	top: calc(48% - 39px);
+	left: calc(47% - 255px);
+	z-index: 2;
+}
+
+.header div{
+	float: left;
+	color: #3ddddd;
+	font-family: 'Exo', sans-serif;
+	font-size: 34px;
+	font-weight: 200;
+}
+
+.header div span{
+	color: #5379fa !important;
+}
+
+.login{
+	position: absolute;
+	top: calc(50% - 75px);
+	left: calc(47% - 50px);
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	z-index: 2;
+}
+
+.login input[type=text]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+    border: 2px solid #dddddd;
+    opacity: 0.6;
+	border-radius: 2px;
+	color: #000000;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+.login input[type=password]{
+	width: 250px;
+	height: 30px;
+	background: transparent;
+	border: 2px solid #dddddd;
+    opacity: 0.6;
+	border-radius: 2px;
+	color: #000000;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+.login input[type=button]{
+	width: 260px;
+	height: 35px;
+	background: #fff;
+	border: 1px solid #fff;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #a18d6c;
+	font-family: 'Exo', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.login input[type=button]:hover{
+	opacity: 0.8;
+}
+
+.login input[type=button]:active{
+	opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 2px solid #dddddd;
+    opacity: 0.6;
+}
+
+.login input[type=password]:focus{
+	outline: none;
+	border: 2px solid #dddddd;
+    opacity: 0.6;
+}
+
+.login input[type=button]:focus{
+	outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+} 
+
+
+
+/* Keep Nav bar appearing over images */
+
+.pos-rel {
+    position: relative;
+}
+
+.flexnav {
+    -webkit-padding-start: 0px;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    width:90%;
+    position: relative;
+    z-index: 1; 
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/*Carousel Slider */
+
+.carousel-item {
+    height: 700px;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+/* Carousel end css */
+
+/* Social media icons (Footer) */
+
+
+
+ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content:space-around;
+    width: 400px;
+}
+ul li {
+    font-family: 'Source Sans Pro', sans-serif;
+    list-style: none;
+    font-size: 26px;
+    border:solid #585858 2px;
+    border-radius: 400px;
+    width: 50px;
+    height: 40px;
+    display: block;
+    text-align: center;
+    padding-top: 8px;
+}
+ul a {
+    color: #585858;
+}
+ul a:hover {
+    color: #000;
+}
+.tippy-popper {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#facebook li:hover {
+    background: #3b5999;
+    color: #000000;
+}
+#instagram li:hover {
+    background: #e4405f;
+    color: #fff;
+}
+#twitter li:hover {
+    background: #55acee;
+    color: #fff;
+}
+#codepen li:hover {
+    background: #3b5999;
+    color: #fff;
+}
+#behance li:hover {
+    background: #0069ff;
+    color: #fff;
+}
+#dribbble li:hover {
+    background: #e84c89;
+    color: #fff;
+}
+
+/*‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐*\
+ #CONTENT
+\*‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐*/
+
+#content {
+    width: 98%;
+    margin: 5px auto;  
+    }
+  
+  #images {
+    width: 70%;
+    margin: 0px auto;
+    }
+  
+  
+  .image-box {
+    position: relative;
+    width: 30%;
+    float: left;
+    margin: 1.6%
+  }
+  
+  .image-box img {
+    z-index:-1;
+    width: 100%;  
+  }
+  
+  .info {
+    border: 2px solid white;
+    width: 110px;
+    height: 30px;
+    display: inline;
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    bottom: 20px;
+    left: 0;
+    padding: 5px;
+    margin: auto;
+  }
+  
+  .info p {
+    background-color: white;
+    text-align: center;
+    font-family: Work Sans;
+    font-weight: 300;
+    color: gray;
+    padding: 10px;
+    margin-top: 2px;
+  }
+  
+  @media screen and (max-width: 940px) {
+
+  #images {
+    width: 70%;
+    margin: 0px auto;
+    }
+  
+  
+  .image-box {
+    width: 100%;
+    float: left;
+    margin-bottom: 5px;
+  }
+  
+  .image-box img {
+    width: 100%;  
+  }
+    
+ .info {
+    width: 85%;
+    height: 18px;
+   
+  }
+  
+.info p {
+    font-size: 18px;
+    font-weight: 800;
+    color: gray;
+    padding: 19px;
+    margin-top: 2px;
+  }
+  
+.info p {
+    font-size: 9px;
+    font-weight: 800;
+    color: gray;
+    padding: 4px;
+    margin-top: 1px;
+  }
+
+}
+  
+  @media screen and (min-width: 1900px) {
+   #nav ul li {
+    float: left;
+    font-size:110%;
+
+}
+
+  .info {
+    width: 630px;
+    height: 180px;
+  }
+  
+  .info p {
+    font-size: 18px;
+    font-weight: 300;
+    color: gray;
+    padding: 19px;
+    margin-top: 2px;
+  }
+
+}
