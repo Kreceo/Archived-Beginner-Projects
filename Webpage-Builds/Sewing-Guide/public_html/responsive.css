@@ -1,0 +1,238 @@
+@media only screen and (max-width: 1159px) {
+    .inner-Container-Body img {
+        width: 90%;
+        max-width: 600px;
+        margin: 0 auto;
+        display: flex;
+    }
+    .inner-Container-Body {
+        margin: 15px auto;
+    }
+    .body-Right {
+        width: 90%;
+    }
+    .download-Now-Button-Sewing {
+        margin-bottom: 25px;
+    }
+    .center-Btn {
+        display: block;
+        margin: 10px auto;
+        margin-bottom: 35px;
+    }
+    .margin-Top {
+        margin-top: 50px;
+    }
+    .body-Left, .body-Right {
+        margin: auto;
+    }
+    .head-Left, .head-Right {
+        margin: auto;
+    }
+    .control-Container {
+        max-width: 100%;
+        margin: auto;
+    }
+    .text-Center {
+        text-align: center;
+    }
+    .head-Container {
+        background-size: 1860px;
+    }
+}
+
+@media only screen and (max-width: 1109px) {
+    .head-Right {
+        margin: auto;
+    }
+    .head-Container {
+        margin-bottom: 50px;
+    }
+    .body-Left-CTA {
+        width: 90%;
+    }
+    .body-Right {
+        margin: auto;
+        width: 100%
+    }
+    .opinion-Text {
+        width: 90%;
+        margin: auto;
+    }
+    .margin-Middle {
+        margin: 0px auto;
+    }
+    .head-Container {
+        background-position: inherit;
+    }
+    .form-Container {
+        width: 90%;
+    }
+    .form-Container h3 {
+        font-size: 22px;
+        margin: 0px;
+    }
+    .inner-Popup-Container {
+        width: 90%;
+    }
+    .form-Container .message {
+        height: 20px;
+    }
+    .carousel-Container .body-Right {
+        margin: 0 auto;
+    }
+    .carousel-Container .body-Left {
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (max-width: 1099px) {
+    .carousel-Container .body-Left {
+        margin-top: 75px;
+    }
+    .form-Container {
+        height: 450px
+    }
+    .carousel-Container .body-Right {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 974px) {
+    .cta-Container {
+        height: 255px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .opinion-Container {
+        width: 73%;
+    }
+    .head-Right h2 {
+        font-size: 34px;
+    }
+    .download-Now-Button {
+        margin-top: 0px;
+    }
+    .head-Right {
+      max-width: 768px;
+      border: none;  
+    }
+    .head-Left {
+        margin: auto;
+        margin-bottom: -8px;
+        width: 70%;
+    }
+}
+
+ 
+
+@media only screen and (max-width: 768px) {
+    cta-Container {
+        height: 255px;
+    }
+}
+
+@media only screen and (max-width: 684px) {
+    .opinion-Container {
+        width: 100%; 
+        justify-content: space-evenly;   
+    }
+}
+
+@media only screen and (max-width: 503px) {
+    .opinion-Container {
+        justify-content: center;
+    }
+    .opinion-Single {
+        max-width: 150px;
+    }
+}
+
+@media only screen and (max-width: 465px) {
+    .head-Right h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .inner-Container {
+        width: 100%;
+    }
+    .inner-Container p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .body-Left {
+        width: 90%;
+    }
+    .inner-Container-Body p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .footer-Content {
+        width: 90%;
+    }
+    .body-Left-CTA {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .carousel-Container .body-Left {
+        margin: 0 auto;
+        margin-top: 70px;
+        width: 100%;
+    }
+    .inner-Container-Body-Machine p {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    .body-Left-CTA span {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .popup-Checkbox {
+        font-size: 12px;
+    }
+    .form-Container span {
+        font-size: 12px;
+    }
+    .head-Container .head-Left img {
+        margin-top: 20px;
+    }
+    .head-Right {
+        height: 360px;
+    }
+    .wrapReverse {
+        flex-wrap: wrap-reverse;
+    }
+    .head-Left {
+        margin-top: 20px;
+        vertical-align: bottom;
+        width: 70%;
+        margin: 20px 0px -6px 25px;
+    }
+    .head-Left img {
+        width: 70%;
+    }
+    .head-Right {
+        border: none;
+    }
+    .head-Container {
+        margin-bottom: 0px;
+        background-size: 1044px;
+    }
+}
+
+@media only screen and (max-width: 347px) {
+    .inner-Container p {
+        line-height: 20px;
+    }
+    .head-Right h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .body-Left-CTA span {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .cta-Container {
+        height: 275px;
+    }
+}

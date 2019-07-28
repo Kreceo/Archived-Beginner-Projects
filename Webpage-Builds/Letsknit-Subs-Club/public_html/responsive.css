@@ -1,0 +1,237 @@
+@media only screen and (max-width: 999px) {
+    #margin-Top {
+        margin-top: 175px;
+    }
+    .expert-Container {
+        justify-content: center;
+    }
+    .discount-Container {
+        justify-content: center;
+    }
+    .recommend-Auto-Container {
+        justify-content: center;
+    }
+    .discount-Title h2 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 973px) {
+    .discount-Container {
+        justify-content: center;
+    }
+    .discount-Title {
+        text-align: center;
+    }
+    .expert-Container {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 973px) {
+    .nav-Singles {
+        margin: 10px auto;
+    }
+    .inner-Discount {
+        margin-bottom: 15px;
+    }
+}
+
+@media only screen and (max-width: 947px) {
+    .discount-Btn {
+        height: 25px;
+    }
+    .essential-Container {
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (max-width: 938px) {
+    .event-Container {
+        justify-content: space-around;
+    }
+}
+
+@media only screen and (max-width: 864px) {
+    .editor-Container {
+        justify-content: center;
+    }
+}
+@media only screen and (max-width: 779px) {
+    .header-Container {
+        justify-content: center;
+    }
+    .discount-Title {
+        text-align: center;
+    }
+    .discount-Container {
+        justify-content: center;
+    }
+    .expert-Container {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .event-Container {
+        justify-content: space-between;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .discount-Container {
+        width: 85%;
+    }
+    .recommend-Inner {
+        text-align: center;
+    }
+    .recommend-Btn {
+        margin: 15px auto;
+    }
+    .event-Content {
+        line-height: 30px;
+    }
+    .event-Single {
+        width: 90%;
+        max-width: 220px;
+        height: 220px;
+    }
+    .essential-Single {
+        margin-bottom: 20px;
+    }
+    .essential-Container {
+        width: 90%;
+    }
+    .editor-Container {
+        flex-wrap: wrap-reverse;
+    }
+    .social-Inner img {
+        width: 100%;
+        max-width: 220px;
+    }
+    .footer-Nav {
+        display: none;
+    }
+    .footer-Left {
+        margin: auto;
+    }
+    .footer-Container {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 779px) {
+    .event-Container {
+        justify-content: space-around;
+    }
+    .editor-Body {
+        width: 90%;
+    }
+}
+
+
+@media only screen and (max-width: 659px) {
+    .social-Container {
+        background-color: #ffffff;
+    }
+}
+
+@media only screen and (max-width: 499px) {
+    .header-Inner h2 {
+        font-size: 21px;
+        line-height: 30px !important;
+        text-align: center;
+        margin: auto;
+    }
+    .header-Inner a {
+        font-size: 25px !important;
+        line-height: 30px !important;
+    }
+    .header-Inner img {
+        max-width: 180px;
+    }
+    .center {
+        text-align: center;
+    }
+    .top-Body-Container {
+        width: 90%;
+        font-size: 18px;
+    }
+    .discount-Body {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .inner-Discount {
+        height: 540px;
+    }
+    .expert-Body {
+        width: 90%;
+    }
+    .expert-Body p {
+        font-size: 18px;
+    }
+    .expert-Right {
+        text-align: center;
+        width: 90%;
+    }
+    .nav-Singles {
+        flex-wrap: wrap;
+        line-height: 25px;
+    }
+    .nav-Container {
+        margin: 0px;
+        display: none;
+    }
+    .header-Inner {
+        justify-content: center;
+        margin-top: 70px;
+    }
+    .footer-Left {
+        margin: auto;
+    }
+    .social-Container {
+        background-color: #ffffff;
+    }
+    .editor-Body {
+        width: 90%;
+    }
+    .essential-Title {
+        width: 90%;
+    }
+    .essential-Title p {
+        font-size: 18px;
+    }
+    .essential-Single {
+        margin-bottom: 15px;
+    }
+    .small-Discount {
+        margin: 10px auto;
+    }
+    .header-Button {
+        margin: auto;
+    }
+    .burger {
+        display: inline-block;
+        margin: 10px;
+    }
+    .top-Background {
+        height: 410px;
+    }
+    .mobile-Nav {
+        border-bottom: 1px solid #ffffff;
+        display: inline-block;
+    }
+    .mobile-Nav img {
+        width: 100%;
+        max-width: 70px;
+        float: right;
+        margin: 4px 10px 0px 0px;
+    }
+    .head-Button-Link {
+        font-size: 16px !important;
+        text-decoration: none !important;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .inner-Small-Discount {
+        max-width: 235px;
+    }
+}
