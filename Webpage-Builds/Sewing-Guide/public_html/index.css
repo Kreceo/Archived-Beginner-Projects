@@ -1,0 +1,669 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header section classes */
+
+.head-Container {
+    background-image: url('https://aplimages.s3.amazonaws.com/_sew/Sewing-guide/Background-header.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.head-Left img {
+    width: 100%;
+    max-width: 535px;
+}
+
+.head-Left {
+    margin-left: 44px;
+    margin-top: 25px;
+}
+
+.head-Right {
+    width: 100%;
+    max-width: 443px;
+    background-color: #ffffff;
+    height: 400px;
+    margin-top: 150px;
+    padding: 28px;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 26px;
+    font-family: 'Open Sans Light', Arial, Helvetica, sans-serif;
+    border: 1px solid #dddddd;
+    margin-left: 90px;
+}
+
+.head-Right img {
+    width: 100%;
+    max-width: 180px !important;
+}
+
+.head-Container .head-Left img {
+    margin-top: 67px;
+}
+
+.head-Right h2 {
+    color: #718cc7;
+    font-size: 42px;
+    line-height: 46px;
+    margin: 0 0 8px 0;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.head-Right span {
+    font-size: 19px;
+    color: #e86ebe;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 700
+}
+
+.download-Now-Button {
+    width: 100%;
+    max-width: 260px;
+    height: 50px;
+    background-color: #e86ebe;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 3px;
+    margin-top: 23px;
+    border: none;
+}
+
+.download-Now-Button:hover {
+    opacity: 0.9;
+}
+
+/* Header section {END} */
+
+/* Body section classes */
+
+.body-Section-Container {
+    background-color: #d9e6f5;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    display: inline-table;
+    margin-top: 36px;
+}
+
+.inner-Container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inner-Container img {
+    width: 100%;
+    max-width: 600px;
+}
+
+.inner-Container-Body img {
+    width: 100%;
+    max-width: 600px;
+}
+
+.inner-Container p {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0px;
+    font-weight: 300;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.inner-Container-Body {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.inner-Container-Body-Machine {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.inner-Container-Body-Machine p {
+    font-size: 20px;
+    line-height: 26px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    font-weight: 300;
+}
+
+.inner-Container-Body p {
+    font-size: 20px;
+    line-height: 26px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    margin: 0px;
+    width: 100%;
+    max-width: 900px;
+    margin: 15px auto;
+    font-weight: 300;
+}
+
+.inner-Container-Body .body-Left img {
+    width: 100%;
+    max-width: 535px;
+}
+
+.body-Left {
+    width: 100%;
+    max-width: 580px;
+}
+
+.body-Left img {
+    width: 100%;
+}
+
+.body-Right {
+    width: 100%;
+    max-width: 580px;
+}
+
+.minus-Margin {
+    margin-top: -32px;
+}
+
+.perfect-Top-Img {
+    width: 100%;
+    margin: 70px 0 -42px 0px;
+}
+
+.body-Right img {
+    width: 100%;
+}
+
+
+.margin-Top {
+    margin-top: 122px;
+}
+
+.margin-Left {
+    margin-left: -24px;
+}
+
+.margin-Top-Body {
+    margin-top: 96px;
+}
+
+.margin-Middle {
+    margin-top: 25px;
+}
+
+.download-Now-Button-Sewing {
+    width: 100%;
+    max-width: 260px;
+    height: 50px;
+    background-color: #f79548;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 3px;
+    border: none;
+}
+
+.download-Now-Button-Sewing:hover {
+    opacity: 0.9;
+}
+
+.download-Now-Button-Machine {
+    width: 100%;
+    max-width: 260px;
+    height: 50px;
+    background-color: #718cc7;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 3px;
+    border: none;
+}
+
+.download-Now-Button-Machine:hover {
+    opacity: 0.9;
+}
+
+.wrap-Reverse {
+    flex-wrap: wrap-reverse;
+}
+
+/* Body section {END} */
+
+/* Opinion section classes */
+
+.opinion-Container {
+    width: 100%;
+    max-width: 1087px; 
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.option-Single {
+    width: 100%;
+    max-width: 235px;
+}
+
+.opinion-Text {
+    text-align: center;
+    width: 100%;
+    margin-top: 57px;
+}
+
+.opinion-Text img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.opinion-Single h3 {
+    font-size: 10pt;
+    font-family: 'Goodlife Sans Condensed';
+    text-align:center;
+}
+
+.opinion-Single p {
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 3px;
+    font-weight: 300;
+}
+
+.opinion-Single span {
+    color: #e86cbd;
+}
+
+/* Opinion section {END} */
+
+/* CTA section classes */
+
+.cta-Container {
+    background-color: #e1f697;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 112px;
+}
+
+.cta-Top-Img {
+    width: 100%;
+    margin: 70px 0 -30px 0px;
+}
+
+.cta-Bottom-Img {
+    width: 100%;
+    margin-bottom: 5px
+}
+
+.cta-Container .inner-Container-Body {
+    width: 100%;
+    max-width: 1020px;
+}
+
+.download-Now-Button-CTA {
+    width: 100%;
+    max-width: 260px;
+    height: 50px;
+    background-color: #a072b4;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: 30px;
+    border: none;
+}
+
+.download-Now-Button-CTA:hover {
+    opacity: 0.9;
+}
+
+.body-Left-CTA {
+    width: 100%;
+    max-width: 715px;
+}
+
+.body-Left-CTA p {
+    font-size: 20px;
+    line-height: 26px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.body-Left-CTA span {
+    font-size: 29px;
+    line-height: 46px;
+    color: #a072b4;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.body-Right-CTA {
+    width: 100%;
+    max-width: 260px;
+}
+
+/* CTA classes {END} */
+
+/* Look inside Carousel classes */
+
+.carousel-Container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+}
+
+.carousel-Container img {
+    width: 100%;
+    max-width: 900px;
+}
+
+.carousel-Container .body-Left {
+    width: 100%;
+    max-width: 200px;
+    margin-top: 200px;
+}
+
+.carousel-Container .body-Right {
+    width: 100%;
+    max-width: 900px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.carousel-Container .body-Right img {
+    width: 100%;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+  
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+.control-Container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 18px;
+}
+
+.left-Scroll {
+    background-image: url('https://kreceo.sfo2.digitaloceanspaces.com/Kreceo_site/Sew-Guide/carousel-left.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 60px;
+    height: 70px;
+}
+
+.left-Scroll:hover {
+    background-image: url('https://kreceo.sfo2.digitaloceanspaces.com/Kreceo_site/Sew-Guide/pink-arrow-left.png');
+}
+
+.right-Scroll {
+    background-image: url('https://kreceo.sfo2.digitaloceanspaces.com/Kreceo_site/Sew-Guide/carousel-right.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    max-width: 60px;
+    height: 70px;
+    -webkit-transition: background-image 1s ease-in-out;
+    transition: background-image 1s ease-in-out;
+}
+
+.right-Scroll:hover {
+    background-image: url('https://kreceo.sfo2.digitaloceanspaces.com/Kreceo_site/Sew-Guide/pink-arrow-right.png');
+}
+
+/* Look inside Carousel classes {END} */
+
+/* Footer section classes */
+
+.footer {
+    width: 100%;
+    background: #000000;
+    position: absolute;
+    margin-top: 81px;
+}
+
+.footer-Content {
+    width: 100%;
+    max-width: 635px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.footer p {
+    color: #a6a6a6;
+    text-align: center;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+/* Footer classes {END] */
+
+/* Popup download classes */
+ 
+/* The popup form - hidden by default */
+.form-Popup {
+    position: fixed;
+    top: 0%;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    background-color: rgba(89, 91, 92, 0.8)
+}
+
+.form-Popup-Download {
+    position: fixed;
+    top: 0%;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    margin: 0px auto;
+    background-color: rgba(89, 91, 92, 0.8)
+}
+
+.form-Background {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(255,0,0,0.3);
+}
+
+.inner-Popup {
+    width: 100%;
+    max-width: 370px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.inner-Popup p {
+    font-size: 20px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+/* Add styles to the form container */
+.form-Container {
+    max-width: 600px;
+    height: 500px;
+    padding: 10px;
+    background-color: white;
+    width: 100%;
+    margin: 0 auto;
+    position: initial;
+    margin-top: 150px;
+}
+
+.inner-Popup-Container {
+    width: 100%;
+    max-width: 550px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.form-Container h3 {
+    color: #718cc7;
+    font-size: 30px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.form-Container .message {
+    height: 80px;
+}
+
+.form-Container input[type=text] {
+    width: 100%;
+    max-width: 370px;
+    margin: 10px auto;
+    padding: 20px;
+    border: none;
+    background: #eeeeee;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #aaaaaa;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.form-Container input[type=text]:focus {
+    background-color: #dddddd;
+    outline: none;
+}
+
+.form-Container input[type=email] {
+    width: 100%;
+    max-width: 370px;
+    margin: 10px auto;
+    padding: 20px;
+    border: none;
+    background: #eeeeee;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #aaaaaa;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.form-Container input[type=email]:focus {
+    background-color: #dddddd;
+    outline: none;
+}
+
+.form-Container .closeBtn {
+    background-color: #FFF;
+    color: #aaaaaa;    
+    border: none;    
+    font-size: 25px;
+    text-align: right;
+    margin: 5px 5px 0 0;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.popup-Checkbox {
+    width: 100%;
+    max-width: 407px;
+    color: #aaaaaa;
+    font-size: 13px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+
+.margin-Popup {
+    margin-top: 150px;
+}
+
+.popup-Checkbox a {
+    text-decoration: underline;
+    color: #aaaaaa; 
+}
+
+.form-Container input[type=checkbox] {
+    padding: 10px;
+}
+
+.submit-Btn {
+    width: 100%;
+    max-width: 240px;
+    color: #ffffff;
+    background-color: #e86ebe;
+    font-size: 15px;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border: none;
+}
+
+.submit-Btn:hover {
+    opacity: 0.9;
+}
+
+.form-Container span {
+    color: #f2707b;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-family: 13px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: 300;
+}
