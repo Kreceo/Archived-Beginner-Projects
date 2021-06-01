@@ -1,1 +1,0 @@
-<?php echo "<h1>Hello Sensei</h1>"; ?>
